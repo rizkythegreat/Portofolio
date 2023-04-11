@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-
+        <p className="text-2xl mt-20">Hi Guys, My Name is Rizky Rahman Salam.</p>
         <p className="text-xl mt-20">
         I am a junior fullstack developer currently studying at STMIK Amik Riau. I possess expertise in technologies such as Tailwind, React, and Node. I am always eager to learn and develop myself in the programming field to achieve success in my career.
         </p>
