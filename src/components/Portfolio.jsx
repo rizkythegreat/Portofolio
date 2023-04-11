@@ -16,9 +16,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      linkDemo: "",
-      linkProject: "",
-      src: reactParallax,
+      linkDemo: "https://weather-app-rizkythegreat.vercel.app/",
+      linkProject: "https://github.com/rizkythegreat/weather-app",
+      src: reactWeather,
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const Portfolio = () => {
       id: 6,
       linkDemo: "",
       linkProject: "",
-      src: reactWeather,
+      src: reactParallax,
     },
   ];
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, linkDemo,  linkProject}) => (
+          {portfolios.map(({ id, src, linkDemo, linkProject }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -69,14 +69,14 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <a href={linkDemo}>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
                 </a>
                 <a href={linkProject}>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
                 </a>
               </div>
             </div>
