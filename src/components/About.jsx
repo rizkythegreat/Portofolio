@@ -14,23 +14,13 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        I am a junior fullstack developer currently studying at STMIK Amik Riau. I possess expertise in technologies such as Tailwind, React, and Node. I am always eager to learn and develop myself in the programming field to achieve success in my career.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        In addition to my technical expertise, I possess strong soft skills that allow me to effectively communicate and collaborate with colleagues and clients. I am adaptable, creative, and possess excellent problem-solving abilities, enabling me to deliver projects on time and exceed expectations. I am dedicated to delivering exceptional results while fostering a positive team environment.
         </p>
       </div>
     </div>
