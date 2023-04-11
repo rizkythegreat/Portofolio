@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       linkDemo: "https://react-todo-app-rizkythegreat.vercel.app/",
-      linkProject: "https://react-todo-app-rizkythegreat.vercel.app/",
+      linkProject: "https://github.com/rizkythegreat/react-todoApp",
       src: todoapp,
     },
     {
