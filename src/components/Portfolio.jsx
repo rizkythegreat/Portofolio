@@ -1,5 +1,5 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import todoapp from "../assets/portfolio/porto_1.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -10,7 +10,7 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: todoapp,
     },
     {
       id: 2,
@@ -56,12 +56,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
+                <a href="https://react-todo-app-rizkythegreat.vercel.app/">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
+                </a>
+                <a href="https://github.com/rizkythegreat/react-todoApp">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
+                </a>
               </div>
             </div>
           ))}
