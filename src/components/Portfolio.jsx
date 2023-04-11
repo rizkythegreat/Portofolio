@@ -10,26 +10,38 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      linkDemo: "https://react-todo-app-rizkythegreat.vercel.app/",
+      linkProject: "https://react-todo-app-rizkythegreat.vercel.app/",
       src: todoapp,
     },
     {
       id: 2,
+      linkDemo: "",
+      linkProject: "",
       src: reactParallax,
     },
     {
       id: 3,
+      linkDemo: "",
+      linkProject: "",
       src: navbar,
     },
     {
       id: 4,
+      linkDemo: "",
+      linkProject: "",
       src: reactSmooth,
     },
     {
       id: 5,
+      linkDemo: "",
+      linkProject: "",
       src: installNode,
     },
     {
       id: 6,
+      linkDemo: "",
+      linkProject: "",
       src: reactWeather,
     },
   ];
@@ -48,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, linkDemo,  linkProject}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,12 +68,12 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href="https://react-todo-app-rizkythegreat.vercel.app/">
+                <a href={linkDemo}>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
                 </a>
-                <a href="https://github.com/rizkythegreat/react-todoApp">
+                <a href={linkProject}>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
