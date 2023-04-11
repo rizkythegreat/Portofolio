@@ -1,6 +1,7 @@
 import React from "react";
 
 import html from "../assets/html.png";
+import node from "../assets/node.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
@@ -58,6 +59,12 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: node,
+      title: "Node",
+      style: "shadow-green-500",
     },
   ];
 
