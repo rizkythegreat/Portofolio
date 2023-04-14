@@ -1,7 +1,7 @@
 import React from "react";
 import todoapp from "../assets/portfolio/porto_1.png";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import svelteTodo from "../assets/portfolio/svelteTodo.png";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -22,9 +22,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      linkDemo: "",
-      linkProject: "",
-      src: navbar,
+      linkDemo: "https://svelte-todo-app-eight.vercel.app/",
+      linkProject: "https://github.com/rizkythegreat/svelte-todo-app",
+      src: svelteTodo,
     },
     {
       id: 4,
