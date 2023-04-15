@@ -3,7 +3,7 @@ import todoapp from "../assets/portfolio/porto_1.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import svelteTodo from "../assets/portfolio/svelteTodo.png";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import contactMe from "../assets/portfolio/contact_me.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
@@ -28,9 +28,9 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      linkDemo: "",
-      linkProject: "",
-      src: reactSmooth,
+      linkDemo: "https://contact-me-svelte.vercel.app/",
+      linkProject: "https://github.com/rizkythegreat/svelte-contact-me",
+      src: contactMe,
     },
     {
       id: 5,
