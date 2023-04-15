@@ -28,7 +28,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      linkDemo: "https://contact-me-svelte.vercel.app/",
+      linkDemo: "https://eky-link-tree.vercel.app/",
       linkProject: "https://github.com/rizkythegreat/svelte-contact-me",
       src: contactMe,
     },
