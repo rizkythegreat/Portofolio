@@ -2,7 +2,7 @@ import React from "react";
 import todoapp from "../assets/portfolio/porto_1.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import svelteTodo from "../assets/portfolio/svelteTodo.png";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import masonryGallery from "../assets/portfolio/masonryGallery.png";
 import contactMe from "../assets/portfolio/contact_me.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -40,9 +40,9 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      linkDemo: "",
-      linkProject: "",
-      src: reactParallax,
+      linkDemo: "https://masonry-image-gallery-psi.vercel.app/",
+      linkProject: "https://github.com/rizkythegreat/masonry-image-gallery",
+      src: masonryGallery,
     },
   ];
 
